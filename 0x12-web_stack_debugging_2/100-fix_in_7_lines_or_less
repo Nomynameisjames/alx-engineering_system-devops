@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# smooth
 pkill -o apache2
 chmod 777 /etc/nginx/nginx.conf
 chown nginx:nginx -R /etc/nginx/
